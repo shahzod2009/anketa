@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 440px;
+    border: 1px solid gray;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+.top {
+    text-align: center;
+}
+.logolink {
+    text-decoration: none;
+}
+.logo {
+    width: 120px;
+    background-color: white;
+}
+.title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.label {
+    font-size: 19px;
+ 
+}
+.input {
+    width: 100%;
+    font-size: 17px;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.button {
+    width: 100%;
+    background-color: aqua;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
